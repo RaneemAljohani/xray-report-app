@@ -1,13 +1,15 @@
+# 🩻 Chest X-ray Auto Report Generator
 
-# Chest X-ray Report Generator with AI
+This Streamlit app generates detailed chest X-ray reports using a pretrained transformer model.
 
-This is a Streamlit app that uses a BLIP model to generate a medical report from a Chest X-ray image.
+## Features
+- Upload chest X-ray images (JPG/PNG)
+- Enter clinical prompt/context manually
+- Get detailed automatic report generation
 
-## How to run it locally
+## Requirements
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
-```
 
-Or deploy it on https://share.streamlit.io by uploading the whole repository.
